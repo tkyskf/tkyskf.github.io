@@ -3,76 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>tkyskf Calendar Sync</title>
-<link rel="stylesheet" href="./style.css">
+<title>tkyskf</title>
+<link rel="stylesheet" href="./calendar-sync/style.css">
 </head>
 <body>
 <main>
-
-<h1>tkyskf Calendar Sync</h1>
-<p class="lede">
-  A single-user application that brings Google Calendar events into a personal Obsidian vault.<br>
-  <span class="ja">Google カレンダーの予定を個人の Obsidian vault に取り込むための、単一利用者向けアプリケーションです。</span>
-</p>
-
-<h2>What this application does</h2>
-<p>
-  This application reads calendar events from the operator's own Google Account and displays them
-  inside <a href="https://obsidian.md/" rel="noopener">Obsidian</a>, a local note-taking application
-  running on the operator's personal computer. It is used to keep a daily note in sync with the
-  day's schedule, and to create notes that are linked to individual calendar events.
-</p>
-<p>
-  It can also create and update events in the connected calendar, so that a note written in Obsidian
-  can be reflected back onto the calendar.
-</p>
-<p class="ja">
-  本アプリは、運用者本人の Google アカウントからカレンダーの予定を読み取り、個人の PC 上で動作する
-  ローカルのノートアプリ Obsidian に表示します。日次ノートとその日の予定を同期させること、および
-  個々の予定に紐づくノートを作成することを目的としています。Obsidian 側で書いた内容をカレンダーへ
-  反映できるよう、予定の作成・更新も行います。
-</p>
-
-<h2>Who can use it</h2>
-<div class="card">
-  <p style="margin:0">
-    <strong>This is a personal, single-user deployment.</strong> It is not offered as a service,
-    it is not distributed, and no accounts other than the operator's own are authorized to use it.
-  </p>
-  <p class="ja" style="margin:.5rem 0 0">
-    本アプリは運用者本人のみが使用する個人利用のものです。サービスとして提供しておらず、配布もしておらず、
-    運用者本人以外のアカウントによる利用は想定していません。
-  </p>
-</div>
-
-<h2>How it is built</h2>
-<p>
-  The application is the open-source Obsidian community plugin
-  <a href="https://github.com/YukiGasai/obsidian-google-calendar" rel="noopener">obsidian-google-calendar</a>,
-  configured with the operator's own Google Cloud OAuth client so that authorization and token storage
-  stay on the operator's own device.
-</p>
-
-<h2>Data and privacy</h2>
-<p>
-  Calendar data stays on the operator's device. There is no server, no database, no analytics,
-  and no transfer of data to any third party.
-</p>
-<p>
-  Full details are in the <a href="./privacy.html"><strong>Privacy Policy</strong></a>.
-</p>
-<p class="ja">
-  カレンダーのデータは運用者の端末内に留まります。サーバもデータベースも解析も無く、第三者への提供も行いません。
-  詳細は<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。
-</p>
-
-<footer>
-  <p>
-    Operated by an individual (GitHub: <a href="https://github.com/tkyskf" rel="noopener">@tkyskf</a>).<br>
-    <a href="./privacy.html">Privacy Policy</a>
-  </p>
-</footer>
-
+  <h1>tkyskf</h1>
+  <p class="lede">Personal pages.</p>
+  <h2>Projects</h2>
+  <ul>
+    <li><a href="./calendar-sync/">tkyskf Calendar Sync</a> — a single-user application that brings Google Calendar events into a personal Obsidian vault.</li>
+  </ul>
 </main>
 </body>
 </html>
